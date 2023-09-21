@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Hammad's Portfolio Website </title>
+    <link rel="icon" href="./images/name logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <script src="https://kit.fontawesome.com/f16df7bc27.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<!-- Navbar  Section Start -->
+<header>
+    <a href="#" class="logo"><span>Hammad</span> Mushtaq.</a>
+
+    <div class="bx bx-menu" id="menu-icon"></div>
+
+    <ul class="navbar">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#work">Work</a></li>
+        <div class="bx bx-moon" id="darkmode"></div>
+    </ul>
+</header>
+<!-- Navbar Section End -->
+<!-- Home Section Start -->
+<section class="home" id="home">
+    <div class="social">
+        <a href="https://github.com/mr-hmmaad889" target="_blank"><i class='bx bxl-github'></i></a>
+        <a href="https://www.instagram.com/mr.humad/" target="_blank"><i class='bx bxl-instagram'></i></a>
+        <a href="https://twitter.com/mr_hmmaad" target="_blank"><i class='bx bxl-twitter'></i></a>
+    </div>
+    <div class="home-img">
+        <img src="./images/hero.png" alt="Hammad Mushtaq">
+    </div>
+    <div class="home-text">
+        <span>Hello, I'm</span>
+        <h1><span>Hammad</span> Mushtaq</h1>
+        <h2>Full Stack Web Developer</h2>
+        <p>From circuits to code, powering the digital world!</p>
+        <a href="CV/Hammad Mushtaq (CV).pdf" class="btn" target="_blank">My Resume</a>
+    </div>
+</section>
+
+<!-- About Section Start -->
+
+<section><div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/skill.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Hi! I'm Hammad Mushtaq. I'm from Pakistan. 
+                   I'm student of MLT at The Islamia University of Bahawalpur. 
+                   I'm website Developer. </p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>    
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <div class="bars">
+                            <div class="bars-box"><li><span>Web Development</span><br>Front-end Web Development
+                            <div class="light-bar"></div>
+                            <div class="percent-bar html-bar"></div></li></div>
+                        
+                        <div class="bars-box"><li><span>App Development</span><br>Building Android/IOS App
+                            <div class="light-bar"></div>
+                            <div class="percent-bar html-bar"></div></li></div>
+                        
+                        <div class="bars-box"><li><span>UI/UX</span><br>Designing Web/App Interfaces
+                            <div class="light-bar"></div>
+                            <div class="percent-bar html-bar"></div></li></div>
+                        </div>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2023 - curren</span><br>UI/UX learning stage</li>
+                        <li><span>Jun 2023 - continuing</span><br>Internship at CMH Bahawalpur</li>
+                        <li><span>2023 - current</span><br>Team lead Media Society</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2023</span><br>UI/UX online Learning by myself</li>
+                        <li><span>2020=2023</span><br>Learnt by myself at youtube and other online platform</li>
+                        <li><span>2020 - 2024</span><br>Medical Laboratory Technology at IUB BWP</li>
+                    </ul>
+                </div>
+            </div> 
+        </div>
+    </div>
+</div></section>
+
+
+
+<!-- Services Section Start -->
+
+<section class="services" id="services">
+    <div class="heading">
+        <h2>Services</h2>
+        <span>My Services</span>
+    </div>
+    <div class="services-content">
+
+        <div class="services-box">
+            <i class='bx bx-code-alt'></i>
+            <h3>Web Development</h3>
+            <a href="#">Learn More</a>
+        </div>
+
+        <div class="services-box">
+            <i class='bx bx-server'></i>
+            <h3>Backend Development</h3>
+            <a href="#">Learn More</a>
+        </div>
+        <div class="services-box">
+            <i class='bx bx-brush'></i>
+            <h3>UI/UX Design</h3>
+            <a href="#">Learn More</a>
+        </div>
+
+        
+    </div>
+</section>
+<!-- SERVICES Section END -->
+
+<!-- Work Section Start -->
+<section id="hammad work">
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/Home.jpeg">
+                <div class="layer">
+                    <h3>MY PORTFOLIO</h3>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/commerce web.jpeg">
+                <div class="layer">
+                    <h3>E-Commerce Web</h3>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/IMG Search Engine.jpeg">
+                <div class="layer">
+                    <h3>Image Search Engine</h3>
+                </div>
+            </div>
+            
+                <div class="work">
+                    <video width="320" height="240" controls>
+                        <source src="Vedio/E-Commerce Vedio.mp4" type="video/mp4">
+                      Your browser does not support the video tag.
+                      </video>
+                    </div>
+                    <div class="work">
+                        <video width="320" height="240" controls>
+                            <source src="Vedio/Portfolio 2.mp4" type="video/mp4">
+                          Your browser does not support the video tag.
+                          </video>
+                        </div>
+                        <div class="work">
+                            <video width="320" height="240" controls>
+                                <source src="Vedio/Groocery Store Web.mp4" type="video/mp4">
+                              Your browser does not support the video tag.
+                              </video>
+                            </div>
+                </div>
+            </div>
+            </div>
+    </div>
+</div>
+</section>
+<!-- Work Section End -->
+<!-------------CONTACT------>
+<section id="hammad contact">
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i></i>hm0008389@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i>+92-304-0008389</p>
+            </div>
+            <div class="contact-right">
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="text" name="email" placeholder="Your E-mail" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Footer Section-->
+<div class="footer">
+    <h2>Follow Us</h2>
+    <div class="footer-social">
+        <a href="https://github.com/mr-hmmaad889" target="_blank"><i class='bx bxl-github'></i></a>
+        <a href="https://twitter.com/mr_hmmaad" target="_blank"><i class='bx bxl-twitter'></i></a>
+        <a href="https://www.instagram.com/mr.humad/" target="_blank"><i class='bx bxl-instagram'></i></a>
+        <a href="https://www.linkedin.com/in/hammad-mushtaq-5a9738239/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+    </div>
+</div>
+
+<div class="copyright">
+    &#169; Hammad Mushtaq| All Right Reserved.</p>
+</div>
+
+    <!-- Javascript -->
+    <script src="script.js"></script>
+</body>
+
+</html>
