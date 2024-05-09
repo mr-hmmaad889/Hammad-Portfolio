@@ -491,11 +491,11 @@ span {
   margin-top: 20px;
   color: #ff004f;
   text-decoration: none;
-  font-size: 18px;
-  line-height: 60px;
+  font-size: 5px;
+  line-height: -190px;
   background: #fff;
   width: 60px;
-  height: 60px;
+  height: 40px;
   border-radius: 50%;
   text-align: center;
 }
